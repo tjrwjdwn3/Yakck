@@ -1,0 +1,12 @@
+{
+  "name": "약찾자",
+  "description": "AI 기반 의약품 식별 서비스. 약학정보원(KPTIC) 및 식약처 데이터를 바탕으로 사진 한 장으로 약을 찾고 상세 정보를 확인하세요.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "vision",
+    "ai"
+  ]
+}
