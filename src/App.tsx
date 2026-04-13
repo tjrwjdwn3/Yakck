@@ -1,11 +1,11 @@
 import React, { useState, useRef } from "react";
 import { Camera, Upload, Pill, Search, RefreshCw, Info, ExternalLink, ChevronRight, AlertCircle, X, CheckCircle2, Factory, Stethoscope, ClipboardList, ShieldAlert, Type as TypeIcon, Image as ImageIcon } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button.tsx";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
+import { Badge } from "@/components/ui/badge.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs.tsx";
+import { Dialog, DialogContent } from "@/components/ui/dialog.tsx";
 import { analyzePillImage, PillAnalysis, getDrugDetail, DrugDetail } from "@/lib/gemini";
 
 export default function App() {
